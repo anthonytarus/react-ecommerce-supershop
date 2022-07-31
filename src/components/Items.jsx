@@ -3,7 +3,7 @@ import shirtOne from '../assets/shirt1.avif'
 
 function Items() {
   return (
-    
+    <>
     <section class="bg-white dark:bg-gray-900">
         <div class="container px-6 py-8 mx-auto">
             <div class="lg:flex lg:-mx-2">
@@ -33,6 +33,66 @@ function Items() {
                     </div>
 
                     <div class="grid grid-cols-1 gap-8 mt-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                        <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
+                            <p class="text-blue-500">$12.55</p>
+
+                            <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span class="mx-1">Add to cart</span>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
+                            <p class="text-blue-500">$12.55</p>
+
+                            <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span class="mx-1">Add to cart</span>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
+                            <p class="text-blue-500">$12.55</p>
+
+                            <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span class="mx-1">Add to cart</span>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
+                            <p class="text-blue-500">$12.55</p>
+
+                            <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span class="mx-1">Add to cart</span>
+                            </button>
+                        </div>
+                        <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
+                            <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
+                            <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
+                            <p class="text-blue-500">$12.55</p>
+
+                            <button class="flex items-center justify-center w-full px-2 py-2 mt-4 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-gray-800 rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">
+                                    <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                                </svg>
+                                <span class="mx-1">Add to cart</span>
+                            </button>
+                        </div>
                         <div class="flex flex-col items-center justify-center w-full max-w-lg mx-auto">
                             <img class="object-cover w-full rounded-md h-72 xl:h-80" src="https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80" alt="T-Shirt"/>
                             <h4 class="mt-2 text-lg font-medium text-gray-700 dark:text-gray-200">Printed T-shirt</h4>
@@ -89,6 +149,94 @@ function Items() {
             </div>
         </div>
     </section>
+
+<section class="text-gray-400 bg-gray-900 body-font">
+<div class="container px-5 py-24 mx-auto">
+  <div class="flex flex-wrap -m-4">
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+        <p class="mt-1">$16.00</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+        <p class="mt-1">$21.15</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+        <p class="mt-1">$12.00</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+        <p class="mt-1">$18.40</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">The Catalyzer</h2>
+        <p class="mt-1">$16.00</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">Shooting Stars</h2>
+        <p class="mt-1">$21.15</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">Neptune</h2>
+        <p class="mt-1">$12.00</p>
+      </div>
+    </div>
+    <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+      <a class="block relative h-48 rounded overflow-hidden">
+        <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268"/>
+      </a>
+      <div class="mt-4">
+        <h3 class="text-gray-500 text-xs tracking-widest title-font mb-1">CATEGORY</h3>
+        <h2 class="text-white title-font text-lg font-medium">The 400 Blows</h2>
+        <p class="mt-1">$18.40</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+</>
   )
 }
 
