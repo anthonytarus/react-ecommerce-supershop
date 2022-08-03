@@ -4,8 +4,7 @@ import heroImage from '../assets/Catalogue-pana.32658f1.svg'
 function Hero() {
   return (
     
-    <header class="bg-white dark:bg-gray-800">
-        
+    <header class="bg-white dark:bg-gray-800">      
 
         <div class="container px-6 py-16 mx-auto">
             <div class="items-center lg:flex">
